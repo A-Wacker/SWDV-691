@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-lg-6 mx-auto text-center p-4">
+        <div class="px-2">
+            <h4>{{title}}</h4>
+            <form action="index.php" class="justify-content-center" id="viewListing">
+                <img class="img-fluid" src="{{image}}">
+                <br>
+                <label for="description" id="lblDecription"> Description </label>
+                <textarea class="form-control col-sm-6" rows="4" style="width: 100%;" name="description" id="description" readonly> {{descr}} </textarea>
+                <label for="price" id="lblPrice"> Price </label>
+                <input type="text" class="form-control col-sm-4" name="price" id="price" value="${{price}}" readonly></input>
+                <button type="submit" class="btn btn-secondary" role="button" style="margin-top: 10px;">Back</a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,109 @@
+@lightblue: #8CABFF;
+@salmon: #FFB7A6;
+@darkblue: #506BB3;
+@red: #FF6F61;
+@green: #88B04B;
+@grey: #B3B3AD;
+@family: Verdana, Geneva, sans-serif;
+
+.bold {
+    font-family: @family;
+    font-weight: 550;
+}
+
+.btn-primary {
+    background-color: @lightblue;
+
+    &:hover {
+        background-color: @darkblue;
+    }
+}
+
+body {
+    font-family: @family;
+}
+
+#header {
+    .collapse {
+        :not([disabled]) {
+            a:hover {
+                color: @darkblue;
+                .bold;
+            }
+        }
+    }
+}
+
+#listingItem {
+    pointer-events: auto;
+}
+
+.card-img-top {
+    max-height: 20vh;
+}
+
+#viewListing {
+    border: 1px solid;
+    border-color: @darkblue;
+    padding: 10px;
+    
+    label {
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    input[type=text], textarea {
+        margin: auto;
+    }
+}
+
+.form-group {
+    border: 1px solid;
+    border-color: @darkblue;
+    padding: 10px;
+
+    label {
+        margin: .5rem 0 .5rem 0
+    }
+
+    #form-btns {
+        text-align: right;
+        
+        button {
+            margin-left: auto;
+            display: inline;
+        }
+    
+        button[type=reset] {
+            background-color: @red;
+        }
+    }
+}
+
+.img-fluid {
+    margin: 0;
+}
+
+.btn-file {
+    padding: 0;
+}
+
+.warning {
+    border-color: @red;
+    border-width: 2px;
+}
+
+.alert-success {
+    display: none;
+    color: @green;
+    width: 100%;
+    text-align: center;
+}
+
+.tooltip-inner {
+    padding-bottom: 8px;
+    background-color: @red;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: @red !important;
+}

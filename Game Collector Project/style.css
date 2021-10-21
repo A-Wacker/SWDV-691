@@ -1,0 +1,77 @@
+.bold {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 550;
+}
+.btn-primary {
+  background-color: #8CABFF;
+}
+.btn-primary:hover {
+  background-color: #506BB3;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+#header .collapse :not([disabled]) a:hover {
+  color: #506BB3;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 550;
+}
+#listingItem {
+  pointer-events: auto;
+}
+.card-img-top {
+  max-height: 20vh;
+}
+#viewListing {
+  border: 1px solid;
+  border-color: #506BB3;
+  padding: 10px;
+}
+#viewListing label {
+  margin: 0.5rem 0 0.5rem 0;
+}
+#viewListing input[type=text],
+#viewListing textarea {
+  margin: auto;
+}
+.form-group {
+  border: 1px solid;
+  border-color: #506BB3;
+  padding: 10px;
+}
+.form-group label {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.form-group #form-btns {
+  text-align: right;
+}
+.form-group #form-btns button {
+  margin-left: auto;
+  display: inline;
+}
+.form-group #form-btns button[type=reset] {
+  background-color: #FF6F61;
+}
+.img-fluid {
+  margin: 0;
+}
+.btn-file {
+  padding: 0;
+}
+.warning {
+  border-color: #FF6F61;
+  border-width: 2px;
+}
+.alert-success {
+  display: none;
+  color: #88B04B;
+  width: 100%;
+  text-align: center;
+}
+.tooltip-inner {
+  padding-bottom: 8px;
+  background-color: #FF6F61;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #FF6F61 !important;
+}
